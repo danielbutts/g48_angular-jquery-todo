@@ -1,0 +1,13 @@
+{
+  "name": "jquery-to-angular-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "angular-dev": "lite-server --baseDir=angular",
+    "jquery-dev": "lite-server --baseDir=jquery"
+  },
+  "dependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
