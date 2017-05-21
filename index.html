@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Todo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style media="screen">
+      .remove-me { cursor: pointer; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script defer src="./app.js" charset="utf-8"></script>
+  </head>
+  <body class="container">
+    <div class="row">
+      <h1>Todo List</h1>
+      <br>
+      <div class="col-md-6">
+        <form class="row">
+          <div class="form-group col-md-6">
+            <label>Task</label>
+            <input class="form-control" type="text">
+          </div>
+          <div class="form-group col-md-6">
+            <label>Category</label>
+            <select class="form-control">
+              <option value="">-- Select One --</option>
+              <option value="Chore">Chore</option>
+              <option value="Coding">Coding</option>
+              <option value="School">School</option>
+              <option value="Work">Work</option>
+            </select>
+          </div>
+          <div class="form-group col-md-12">
+            <button class="btn btn-block btn-primary btn-large"
+            type="submit">Create</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <div class="well">
+          <h4>Todos: <span class="badge">1</span></h4>
+          <ul>
+            <li>
+              Complete the todo list
+              <span class="badge alert-success">Coding</span>
+              <span class="remove-me badge alert-danger">Remove Me</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

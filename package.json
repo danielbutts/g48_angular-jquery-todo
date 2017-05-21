@@ -4,8 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "angular-dev": "lite-server --baseDir=angular",
-    "jquery-dev": "lite-server --baseDir=jquery"
+    "dev": "lite-server"
   },
   "dependencies": {
     "lite-server": "^2.3.0"
